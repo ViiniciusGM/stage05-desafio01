@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bg-card: hsla(240, 9%, 89%, 1);
+  --bg-card-hover: hsl(194, 97%, 31%);
+  --bg: hsl(0, 0%, 100%);
+  --font-color: hsl(240, 6%, 21%);
+
+  font-size: 62.5%;
+}
+
+body{
+  background-image: var(--bg);
+
+  width: 82.1rem;
+  height: 33.6rem;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: auto;
+
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main span{
+  font-family: 'Roboto', sans-serif;
+
+  font-size: 12.6rem;
+  font-weight: 500;
+  color: var(--font-color);
+
+  margin-bottom: 1.7rem;
+}
+
+main .button {
+  display: flex;
+  gap: 4rem;
+
+  justify-content: center;
+
+  gap: 3.2rem;
+}
+
+svg, .card {
+  cursor: pointer;
+}
+
+.sons {
+  width: 30.8rem;
+  display: grid;
+  gap: 3.2rem;
+  grid-template-areas: "colA colB" "colC colD";
+}
+
+.card {
+  background-color: var(--bg-card);
+
+  padding: 4.8rem 4.7rem;
+  border-radius: 2.4rem;
+
+  width: 13.8rem;
+  height: 15.2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover, .card svg:hover path{
+  background-color: var(--bg-card-hover);
+  fill: white;
+}
+
+.cardjs{
+  background-color: var(--bg-card-hover);
+  fill: white;
+}
+
+.hide {
+  display: none;
+}
+
+
+.tree-bg{
+  background-image: url(https://i.pinimg.com/originals/1b/45/63/1b456377a9dce67a7dc3630260aa7572.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rain-bg{
+  background-image: url(https://cutewallpaper.org/25/anime-desktop-wallpaper-gifs/26-sad-anime-wallpaper-gif-orochi-wallpaper.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.coffe-bg{
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/022/521/258/original/bogdan-mb0sco-coffee-shop-animationfullhd.gif?1575731432);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fire-bg {
+  background-image: url(https://i.gifer.com/BSJK.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+span{
+  color: white;
+}
+
+
+
