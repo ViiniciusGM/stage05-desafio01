@@ -13,10 +13,10 @@ export default function(){
     kitchenTimer.play()
   }
 
-  const treeSound = new Audio('../sounds/Floresta.wav')
-  const rainSound = new Audio('../sounds/Chuva.wav')
-  const coffeSound = new Audio('../sounds/Cafeteria.wav')
-  const fireSound = new Audio('../sounds/Lareira.wav')
+  const treeSound = new Audio("https://github.com/ViiniciusGM/stage05-desafio01/blob/main/sounds/Floresta.wav?raw=true")
+  const rainSound = new Audio("https://github.com/ViiniciusGM/stage05-desafio01/blob/main/sounds/Chuva.wav?raw=true")
+  const coffeSound = new Audio("https://github.com/ViiniciusGM/stage05-desafio01/blob/main/sounds/Cafeteria.wav?raw=true")
+  const fireSound = new Audio("https://github.com/ViiniciusGM/stage05-desafio01/blob/main/sounds/Lareira.wav?raw=true")
 
   treeSound.loop = true
   rainSound.loop = true
