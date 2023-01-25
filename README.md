@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/92201792/179612270-10d16244-2edd-4f1c-828d-742860dcd996.png)
 
-Desafio 1 do Stage 5 da Rockeseat  https://viiniciusgm.github.io/stage05-desafio01/ 💜🚀
+Link - https://viniciusamc.github.io/timer-js/ 💜🚀
 
 ##
 <h1>
